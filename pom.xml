@@ -1,0 +1,20 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>TimeWorks</groupId>
+  <artifactId>TimeWorks</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <dependencies>
+	  <dependency>
+	  <groupId>org.codehaus.groovy.modules.http-builder</groupId>
+	  <artifactId>http-builder</artifactId>
+	  <version>0.5.1</version>
+	  </dependency>
+  </dependencies>
+  <distributionManagement>
+  <repository>
+  <id>Codehaus</id>
+  <url>http://repository.codehaus.org</url>
+</repository>
+
+  </distributionManagement>
+</project>
