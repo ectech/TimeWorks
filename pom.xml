@@ -5,16 +5,26 @@
   <version>0.0.1-SNAPSHOT</version>
   <dependencies>
 	  <dependency>
-	  <groupId>org.codehaus.groovy.modules.http-builder</groupId>
-	  <artifactId>http-builder</artifactId>
-	  <version>0.5.1</version>
+		<groupId>org.scribe</groupId>
+		<artifactId>scribe</artifactId>
+		<version>1.2.2</version>
 	  </dependency>
+	  <dependency>
+		  <groupId>org.codehaus.groovy.modules.http-builder</groupId>
+		  <artifactId>http-builder</artifactId>
+		  <version>0.5.1</version>
+		  <exclusions>
+		  	<exclusion>
+		  		<artifactId>xercesImpl</artifactId>
+		  		<groupId>xerces</groupId>
+		  	</exclusion>
+		  </exclusions>
+		</dependency>
   </dependencies>
+  <repositories>
+
+  </repositories>
   <distributionManagement>
-  <repository>
-  <id>Codehaus</id>
-  <url>http://repository.codehaus.org</url>
-</repository>
 
   </distributionManagement>
 </project>
